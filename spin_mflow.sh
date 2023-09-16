@@ -27,8 +27,8 @@ if ! pgrep -f "mlflow server" > /dev/null; then
     export MLFLOW_TRACKING_URI=http://0.0.0.0:5000
     
     mlflow server \
-        --backend-store-uri sqlite:///mlflow.db \
-        --default-artifact-root ./mlruns \
+        --backend-store-uri sqlite:///mlflow/mlflow.db \
+        --default-artifact-root ./mlflow/mlruns \
         --host 0.0.0.0 &
     sleep 10
 fi

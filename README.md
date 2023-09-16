@@ -10,11 +10,9 @@ AutoMLClassification is a Python module for automating the process of selecting 
 - **Experiment Tracking**: Logs all experiments, including model parameters, metrics, and models, using MLflow.
 - **Customizable**: Allows the user to specify the models, hyperparameter ranges, and number of iterations for random search.
 
-## Installation
+To view and plot metrics (accuracy, f1, precision, recall), open a web browser and navigate to http://0.0.0.0:5000.
 
-You can install the required dependencies for this project by running:
-
-
+![image](images/mlflowui.png)
 ## Usage
 
 Here is a basic example of how to use the `AutoMLClassification` class:
